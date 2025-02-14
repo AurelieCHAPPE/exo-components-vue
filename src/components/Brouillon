@@ -1,0 +1,22 @@
+Dans App.vue (parent), quand on appelle le composant et on envoie les infos,
+<CardDescription :personInfos="personsList[0]" />
+composant c'est CardDescription
+personInfos c'est le nom de la props
+personsList[0] c'est d'où provient l'information
+
+
+Dans le composant enfant, on déclare la props
+
+const props = defineProps({
+    personInfos: Object,
+  })
+
+  personInfos c'est le nom de la props
+  object c'est le type de la props
+
+
+ {{ personInfos.firstname }} {{ personInfos.lastname }}
+ On utilise dans le contenu
+ personInfos c'est le nom de la props
+ firstname c'est la clé dont on a besoin
+
