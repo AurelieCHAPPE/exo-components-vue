@@ -1,6 +1,7 @@
-# exo-js-bis
+# Reproduction d'une liste de quatres descriptions sous Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+## 📌 Description
+Ce projet consiste à recréer une liste de quatre descriptions en utilisant Vue.js. L'objectif est de travailler l'utilisation des composants et la transmission des informations en props.
 
 ## Recommended IDE Setup
 
